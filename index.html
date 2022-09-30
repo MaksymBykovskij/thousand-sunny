@@ -39,28 +39,39 @@
                 <h3>Holiday finder</h3>
                 <ul class="list form-hero">
                     <li class="item">
-                        <select class="item-form" name="location" id="">
-                            <option value="Tokio">Tokio</option>
-                            <option value="Madrid">Madrid</option>
-                        </select>
+                        <input class="input-form" type="text" list="location" placeholder="Location">
+                        <datalist class="item-form" name="location" id="location">
+                            <option value="Tokio"></option>
+                            <option value="Madrid"></option>
+                            <option value="Paris"></option>
+                            <option value="Berlin"></option>
+                            <option value="Praga"></option>
+                        </datalist>
                     </li>
                     <li class="item">
-                        <select class="item-form" name="Activity" id="">
-                            <option value="Tokio">Active</option>
-                            <option value="Madrid">Unactive</option>
-                        </select>
+                        <input class="input-form" list="activity" type="text" placeholder="Activity">
+                        <datalist class="item-form" name="Activity" id="activity">
+                            <option value="Active"></option>
+                            <option value="Unactive"></option>
+                        </datalist>
                     </li>
                     <li class="item">
-                        <select class="item-form" name="Grade" id="">
-                            <option value="Tokio">1</option>
-                            <option value="Madrid">2</option>
-                        </select>
+                        <input class="input-form" list="grade" type="text" placeholder="Grade">
+                        <datalist class="item-form" name="grade" id="grade">
+                            <option value="1"></option>
+                            <option value="2"></option>
+                        </datalist>
                     </li>
                     <li class="item">
-                        <select class="item-form" name="Date" id="">
-                            <option value="Tokio">Date1</option>
-                            <option value="Madrid">Date2</option>
-                        </select>
+                        <input class="input-form" list="date" type="text" placeholder="Date">
+                        <datalist class="item-form" name="Date" id="date">
+                            <option value="Date1"></option>
+                            <option value="Date2"></option>
+                            <option value="Date3"></option>
+                            <option value="Date4"></option>
+                            <option value="Date5"></option>
+                            <option value="Date6"></option>
+                        </datalist>
                     </li>
                 </ul>
                 <a href="#" class="button">Explore</a>
