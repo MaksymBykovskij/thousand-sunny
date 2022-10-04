@@ -13,22 +13,27 @@
 <body>
     <header>
         <nav class="container main-nav">
-
-            <a class="logo" href="index.html">
-                <img class="logo-circle-foreign" src="img/Ellipse 7.png" alt="logo">
-                <img class="logo-circle-inside" src="/img/Ellipse 11.png" alt="logo">
-            </a>
-
-            <ul class="site-nav list">
-                <li class="item"><a href="#" class="link">Home</a></li>
-                <li class="item"><a href="#" class="link">Destinations</a></li>
-                <li class="item"><a href="#" class="link">About</a></li>
-                <li class="item"><a href="#" class="link">Partner</a></li>
-            </ul>
-            <ul class="auth-nav list">
-                <li class="item"><a href="#" class="button secondary-btn">Login</a></li>
-                <li class="item"><a href="#" class="button primary">Register</a></li>
-            </ul>
+            <div class="header">
+                    <div class="logo-link">
+                        <a class="logo" href="index.html">
+                            <img class="logo-circle-foreign" src="img/Ellipse 7.png" alt="logo">
+                            <img class="logo-circle-inside" src="/img/Ellipse 11.png" alt="logo">
+                        </a>
+                    </div>
+                    <div class="menu-list">
+                            <ul class="site-nav list">
+                                <li class="item"><a href="#" class="link">Home</a></li>
+                                <li class="item"><a href="#" class="link">Destinations</a></li>
+                                <li class="item"><a href="#" class="link">About</a></li>
+                                <li class="item"><a href="#" class="link">Partner</a></li>
+                            </ul>
+                        
+                        <ul class="auth-nav list">
+                            <li class="item"><a href="#" class="button secondary-btn">Login</a></li>
+                            <li class="item"><a href="#" class="button primary">Register</a></li>
+                        </ul>
+                    </div>
+            </div>
         </nav>
     </header>
 
@@ -84,7 +89,9 @@
 
     <section>
         <div class="container secondary">
-            <img src="img/Thousand-02 1.png" alt="picture" srcset="">
+            <div class="secondary-picture">
+                <img src="img/Thousand-02 1.png" alt="picture" srcset="">
+            </div>
             <div class="description-hero">
                 <h2 class="secondary-title">A new way to explore the world </h2>
                 <p class="description">
@@ -152,7 +159,7 @@
     </section>
 
     <section>
-        <div class="container giudes-container">
+        <div class="container giudes-container secondary">
             <div class="description-hero">
                 <h2 class="secondary-title">Guides by Thousand Sunny</h2>
                 <p class="description">
@@ -161,13 +168,16 @@
                 <div>
                     <a href="#" class="button">Download</a>
                 </div>
-                <img src="img/Thousand-03.png" alt="picture" srcset="">
+                
+            </div>
+            <div>
+                <img src="img/Thousand-03.png" alt="picture">
             </div>
         </div>
     </section>
 
     <section>
-        <div class="container">
+        <div class="container testimonials-container">
             <div class="testimonials">
                 <div class="testimonials-description">
                     <div class="testimonials-title">
@@ -218,49 +228,54 @@
         </div>
     </section>
 
-    <section>
+    <section class="trend-story">
         <div class="container">
-            <h3>Trending stories</h3>
-            <ul   class="list">
-                <li>
-                    <img src="img/image 12.png" alt="picture">
-                        <h6>The many benefits of taking a healing holiday</h6>
-                        <p>
-                            ‘Helaing holidays’ are on the rise tohelp maximise your health and happines...
-                        </p>
-                        <a href="#" class="button">Read more</a>
-                    </img>
+            <div class="trend-story-title">
+                <h3>Trending stories</h3>
+                <a class="trend-story-title-link" href="#">View all</a>
+            </div>
+            <ul class="trend-story-list">
+                <li class="item">
+                    <div class="trend-story-image">
+                        <img src="img/image 12.png" alt="picture">
+                    </div>
+                            <h6>The many benefits of taking a healing holiday</h6>
+                            <p>
+                                ‘Helaing holidays’ are on the rise tohelp maximise your health and happines...
+                            </p>
+                            <a href="#" class="trend-story-title-link">Read more</a>
+                    
                 </li>
-                <li>
+                <li class="item">
                     <img src="img/image 13.png" alt="picture">
                         <h6>The best Kyoto restaurant to try Japanese food</h6>
                         <p>
                             From tofu to teahouses, here’s our guide to Kyoto’s best restaurants to visit...
                         </p>
                         <div>
-                            <a href="#" class="button">Read more</a>
+                            <a href="#" class="trend-story-title-link">Read more</a>
                         </div>
                     </img>
                 </li>
-                <li>
+                <li class="item">
                     <img src="img/image 14.png" alt="picture">
                         <h6>Skip Chichen Itza and head to this remote Yucatan</h6>
                         <p>
                             It’s remote and challenging to get, but braving the jungle and exploring these ruins without the...
                         </p>
                         <div>
-                            <a href="#" class="button">Read more</a>
+                            <a href="#" class="trend-story-title-link">Read more</a>
                         </div>
                     </img>
                 </li>
-                <li>
+                <li class="item">
                     <img src="img/image 15.png" alt="picture">
                         <h6>Surf’s up at these beginner spots around the world</h6>
                         <p>
                             If learning to surf has in on your to-do list for a while, the good news is: it’s never too late...
                         </p>
                         <div>
-                            <a href="#" class="button">Read more</a>
+                            <a href="#" class="trend-story-title-link">Read more</a>
                         </div>
                     </img>
                 </li>
@@ -269,45 +284,56 @@
     </section>
 
     <footer>
+        <div class="container footer">
+            <div class="footer1">
+                <a class="logo" href="index.html">
+                    <img class="logo-circle-foreign" src="img/Ellipse 7.png" alt="logo">
+                    <img class="logo-circle-inside-footer" src="/img/Ellipse 11.png" alt="logo">
+                </a>
+                <p class="footer-text">
+                    Plan and book your perfect trip with expert advice, travel tips destination information from us
+                </p>
+                <p>
+                    ©2020 Thousand Sunny. All rights reserved
+                </p>
+            </div>
+            <div class="footer2">
+                <ul  class="footer2-list">
+                    <h5 class="footer2-list-title">Destinations</h5>
+                    <li class="item">Africa</li>
+                    <li class="item">Antarctica</li>
+                    <li class="item">Asia</li>
+                    <li class="item">Europe</li>
+                    <li class="item">America</li>
+                </ul>
+                <ul  class="footer2-list">
+                    <h5 class="footer2-list-title">Shop</h5>
+                    <li class="item">Destination Guides</li>
+                    <li class="item">Pictorial & Gifts</li>
+                    <li class="item">Special Offers</li>
+                    <li class="item">Delivery Times</li>
+                    <li class="item">FAQs</li>
+                </ul>
+                <ul  class="footer2-list">
+                    <h5 class="footer2-list-title">Interests</h5>
+                    <li class="item">Adventure Travel</li>
+                    <li class="item">Art And Culture</li>
+                    <li class="item">Wildlife And Nature</li>
+                    <li class="item">Family Holidays</li>
+                    <li class="item">Food And Drink</li>
+                </ul>
+            </div>
+        </div>
         <div class="container">
-            <a href="index.html"><img src="img/Ellipse 7.png" alt="logo"></a>
-            <p>
-                Plan and book your perfect trip with expert advice, travel tips destination information from us
-            </p>
-            <p>
-                ©2020 Thousand Sunny. All rights reserved
-            </p>
-            <ul  class="list">
-                <h5>Destinations</h5>
-                <li>Africa</li>
-                <li>Antarctica</li>
-                <li>Asia</li>
-                <li>Europe</li>
-                <li>America</li>
-            </ul>
-            <ul  class="list">
-                <h5>Shop</h5>
-                <li>Destination Guides</li>
-                <li>Pictorial & Gifts</li>
-                <li>Special Offers</li>
-                <li>Delivery Times</li>
-                <li>FAQs</li>
-            </ul>
-            <ul  class="list">
-                <h5>Interests</h5>
-                <li>Adventure Travel</li>
-                <li>Art And Culture</li>
-                <li>Wildlife And Nature</li>
-                <li>Family Holidays</li>
-                <li>Food And Drink</li>
-            </ul>
-            <ul  class="list">
-                <li><a>Twitter</a></li>
-                <li><a>Facebook</a></li>
-                <li><a>Instagram</a></li>
-                <li><a>LinkedIn</a></li>
-                <li><a>YouTube</a></li>
-            </ul>
+            <div class="footer3">
+                <ul  class="social-list">
+                    <li><a href="#"><img src="/img/social-icon/twitter.svg" alt="twitter"></a></li>
+                    <li><a href="#"><img src="/img/social-icon/facebook.svg" alt="facebook"></a></li>
+                    <li><a href="#"><img src="/img/social-icon/instagram.svg" alt="instagram"></a></li>
+                    <li><a href="#"><img src="/img/social-icon/linked.svg" alt="LinkedIn"></a></li>
+                    <li><a href="#"><img src="/img/social-icon/youtube.svg" alt="YouTube"></a></li>
+                </ul>
+            </div>
         </div>
     </footer>
 </body>
